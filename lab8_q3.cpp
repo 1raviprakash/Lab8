@@ -8,8 +8,7 @@ using namespace std;
 void sort(int a[],int n){
 	int o,t,i;
  	
-	//loop for arranging the array elements in ascending order
-	//this step is important to get the required function as we need an order
+	//Using do
  	do{
 	o=0;
 		for(i=0;i<(n-1);i++)
@@ -25,7 +24,7 @@ void sort(int a[],int n){
       
 }
 
-//declaring functions to find the kth maximum and kth minimum element of array
+//Setting functions to find the kth maximum and kth minimum element of array
 void kthlarge(int a[],int n,int k){ 
 	cout<<"The "<< k<<"th largest element is "<<a[n-k]<<endl;
 }
